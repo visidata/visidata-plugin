@@ -26,7 +26,7 @@ Run `cookiecutter gh:visidata/visidata-plugin` and then answer the prompts. This
 
 To publish a plugin, ensure there is a public repo with your `.py` file.
 
-Fork [visidata:dlc](https://github.com/visidata/dlc), and add a row for each plugin with all of the necessary information. If you use cookiecutter, it will create a template for your row in [plugins-sample.jsonl]().
+Fork [visidata:dlc](https://github.com/visidata/dlc), and add a row for each plugin with all of the necessary information. If you use cookiecutter, it will create a template for your row in [plugins-sample.jsonl](https://github.com/visidata/visidata-plugin/blob/stable/plugins-sample.jsonl).
 
 
 * name: short name of the plugin (like vfake). Less than 20 characters.
@@ -38,5 +38,5 @@ Fork [visidata:dlc](https://github.com/visidata/dlc), and add a row for each plu
 * visidata_ver: version of VisiData required, like v2.0.
 * pydeps: space-separated list of PyPI dependencies (like in requirements.txt).
 * vdplugindeps: space-separated list of vd plugin dependencies.
-* sha256: SHA256 hash of plugin .py of most recent release. A script for obtaining this has can be found in [vdhash.py]().
+* sha256: SHA256 hash of plugin .py of most recent release. A script for obtaining this has can be found in [vdhash.py](https://raw.githubusercontent.com/visidata/visidata-plugin/stable/vdhash.py).
 
