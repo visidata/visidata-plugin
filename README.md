@@ -22,6 +22,8 @@ pip install cookiecutter
 
 Run `cookiecutter gh:visidata/visidata-plugin` and then answer the prompts. This will help set the fundamentals for your plugin structure.
 
+If you are not using cookiecutter, rename {{cookiecutter.plugin_name}}.py to the name of your plugin, and add the plugin code to it.
+
 ## Publishing your plugin
 
 To publish a plugin, ensure there is a public repo with your `.py` file.
