@@ -1,0 +1,11 @@
+{
+    "name": "{{cookiecutter.plugin_name}}",
+    "description: "{{cookiecutter.description}}",
+    "maintainer": "{{cookiecutter.author_name}} < {{cookiecutter.github_email}}>",
+    "url": "link to the raw .py file",
+    "latest_ver": "{{cookiecutter.initial_version}}",
+    "visidata_ver": "version of VisiData required",
+    "pydeps": "{{cookiecutter.python_depedencies}}",
+    "vdplugindeps": "space-seperated list of VisiData plugin dependencies",
+    "sha256": "SHA256 hash of plugin .py at raw url. Can be obtained by running vdhash.py"
+}
