@@ -1,7 +1,7 @@
 {
     "name": "{{cookiecutter.plugin_name}}",
     "description: "{{cookiecutter.description}}",
-    "maintainer": "{{cookiecutter.author_name}} < {{cookiecutter.github_email}}>",
+    "maintainer": "{{cookiecutter.author_name}} <{{cookiecutter.github_email}}>",
     "url": "link to the raw .py file",
     "latest_ver": "{{cookiecutter.initial_version}}",
     "visidata_ver": "version of VisiData required",
